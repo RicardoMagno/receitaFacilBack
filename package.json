@@ -1,0 +1,22 @@
+{
+  "name": "webchefback",
+  "version": "1.0.0",
+  "description": "Backend para o projeto Desenvolvimento web",
+  "main": "n",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoMagno/webChefBack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardoMagno/webChefBack/issues"
+  },
+  "homepage": "https://github.com/RicardoMagno/webChefBack#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
