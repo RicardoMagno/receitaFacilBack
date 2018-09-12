@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RicardoMagno/webChefBack#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "memory-cache": "^0.2.0"
   }
 }
