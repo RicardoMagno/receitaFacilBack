@@ -1,23 +1,19 @@
 {
-  "name": "webchefback",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Backend para o projeto Desenvolvimento web",
-  "main": "n",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RicardoMagno/webChefBack.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RicardoMagno/webChefBack/issues"
-  },
-  "homepage": "https://github.com/RicardoMagno/webChefBack#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "memory-cache": "^0.2.0"
+    "morgan": "^1.9.1",
+    "swagger-ui-express": "^4.0.1"
+  },
+  "devDependencies": {
+    "supertest": "^3.3.0"
   }
 }
