@@ -4,6 +4,8 @@ let user = require('./user.controller')
 let recipe = require('../recipe/recipe.controller')
 
 router.get('/:userId', user.getUser);
+//router.get('/current', passport.authenticate('jwt',{session: false}), user.current);
+//router.get('/', user.findAll);
 router.post('/', user.createUser);
 router.post('/login', user.login);
 router.put('/:userId', user.updateUser);
